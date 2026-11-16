@@ -1,0 +1,27 @@
+# STM32CubeIDE
+**/Debug/
+**/Release/
+**/.metadata/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.d
+
+# ESP32 / Arduino / PlatformIO
+**/.pio/
+**/.vscode/
+**/secrets.h
+
+# Web (Vite + Vue / Cloudflare)
+**/node_modules/
+**/dist/
+**/.wrangler/
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
